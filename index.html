@@ -6,23 +6,26 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+  <script src="https://cdn.tailwindcss.com"></script>
+
   <title>Frontend Mentor | QR code component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
+<body class="bg-blue-50">
 
-  Improve your front-end skills by building projects
+  <div class="container mx-auto px-4 flex flex-col gap-y-6 items-center justify-center h-screen">     
+    
+    <div class="bg-white rounded-3xl shadow-lg p-6 text-center lg:w-1/2 xl:w-1/3">
+      <img src="images/image-qr-code.png" alt="QR Code" class="rounded-2xl w-full mb-6">
+      <h1 class="font-bold text-4xl px-5 mb-6">Improve your front-end skills by building projects</h1>
+      <p class="text-2xl x-5 text-gray-400">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
 
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="text-blue-600 underline hover:text-blue-400">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/bpaddy" class="text-blue-600 underline hover:text-blue-400">Patrick Breen</a>.
+    </div>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
   </div>
-</body>
+
 </html>
